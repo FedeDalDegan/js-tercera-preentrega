@@ -17,7 +17,10 @@ h1, h2, label, button{
 }
 
 h1{
-    text-decoration: underline;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 0.9em;
+    letter-spacing: 0.02em;
 }
 
 #calculate{
@@ -41,4 +44,14 @@ select{
     width: 40px;
     height: 20px;
     text-align: center;
+}
+
+.githubLogo{
+    width: 50px;
+}
+
+.underline{
+    width: 150px;
+    height: 2px;
+    background-color: grey;
 }

@@ -33,6 +33,7 @@ function calculateResult(num1, operator, num2) {
 }
 
 // Actualizacion usando DOM
+// CreateElement para crear LISTAS con los calculos
 function updateHistory(history) {
     const historyList = document.getElementById('history');
     historyList.innerHTML = '';
